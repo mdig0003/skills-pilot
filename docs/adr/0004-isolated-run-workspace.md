@@ -1,0 +1,3 @@
+# Each Run happens in a fresh workspace outside this repository
+
+The agent never works inside this repo. Each Run gets a new folder under `%TEMP%/wording-pilot/<run_id>/`, which contains only the QuixBugs Python programs, tests, JSON test data, `conftest.py` and the one installed skill. Running inside the repo would expose `docs/adr/`, `CONTEXT.md` and `pilot/conditions/`. Those files describe the experiment and contain both conditions, so the agent could learn it is being tested. The QuixBugs checkout also contains the answer key (`correct_python_programs/`) and a README that tells readers to run pytest. The answer key would let the agent copy the fix, and the README would prompt the rule in both conditions.

@@ -1,0 +1,4 @@
+C:\Python311\python.exe -m pytest -q -p no:cacheprovider --color=no --timeout=10 python_testcases/test_gcd.py
+
+......                                                                   [100%]
+6 passed in 0.03s

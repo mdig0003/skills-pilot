@@ -1,0 +1,122 @@
+{
+  "bitcount": [
+    5
+  ],
+  "breadth_first_search": [
+    11
+  ],
+  "bucketsort": [
+    7
+  ],
+  "depth_first_search": [
+    9
+  ],
+  "detect_cycle": [
+    5
+  ],
+  "find_first_in_sorted": [
+    5
+  ],
+  "find_in_sorted": [
+    9
+  ],
+  "flatten": [
+    7
+  ],
+  "gcd": [
+    5
+  ],
+  "get_factors": [
+    10
+  ],
+  "hanoi": [
+    6
+  ],
+  "is_valid_parenthesization": [
+    12
+  ],
+  "kheapsort": [
+    7
+  ],
+  "knapsack": [
+    12
+  ],
+  "kth": [
+    12
+  ],
+  "lcs_length": [
+    9
+  ],
+  "levenshtein": [
+    6
+  ],
+  "lis": [
+    14
+  ],
+  "longest_common_subsequence": [
+    6
+  ],
+  "max_sublist_sum": [
+    7
+  ],
+  "mergesort": [
+    17
+  ],
+  "minimum_spanning_tree": [
+    12
+  ],
+  "next_palindrome": [
+    15
+  ],
+  "next_permutation": [
+    6
+  ],
+  "pascal": [
+    6
+  ],
+  "possible_change": [
+    5
+  ],
+  "powerset": [
+    6
+  ],
+  "quicksort": [
+    7
+  ],
+  "reverse_linked_list": [
+    5
+  ],
+  "rpn_eval": [
+    20
+  ],
+  "shortest_path_length": [
+    22
+  ],
+  "shortest_path_lengths": [
+    13
+  ],
+  "shortest_paths": [
+    10
+  ],
+  "shunting_yard": [
+    17
+  ],
+  "sieve": [
+    4
+  ],
+  "sqrt": [
+    4
+  ],
+  "subsequences": [
+    3
+  ],
+  "to_base": [
+    9
+  ],
+  "topological_ordering": [
+    6
+  ],
+  "wrap": [
+    8
+  ]
+}

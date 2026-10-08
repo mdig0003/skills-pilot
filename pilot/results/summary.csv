@@ -1,0 +1,5 @@
+subset,condition,runs,compliance_rate,false_compliance_rate,explanation_accuracy,localisation_f1,localisation_precision,localisation_recall,run_variance_within_task,skill_loaded_rate,fix_success_rate,no_clear_claim,not_coded,needs_review_unresolved,cost_usd
+all,L2,1,0.0,0.0,,1.0,1.0,1.0,,1.0,1.0,0,1,0,0.2068
+all,L5,1,1.0,,,1.0,1.0,1.0,,1.0,1.0,0,1,0,0.3018
+skill_loaded,L2,1,0.0,0.0,,1.0,1.0,1.0,,1.0,1.0,0,1,0,0.2068
+skill_loaded,L5,1,1.0,,,1.0,1.0,1.0,,1.0,1.0,0,1,0,0.3018

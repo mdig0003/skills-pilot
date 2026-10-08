@@ -1,0 +1,3 @@
+run_id,task_id,condition,skill_loaded,objective_compliance,flags,fix_success,test_run_commands,loc_tp,loc_fp,loc_fn,alt_fix
+dry_gcd_L2,gcd,L2,True,FAIL,no_pre_run,True,python -m pytest --timeout=10 python_testcases/test_gcd.py,1,0,0,False
+dry_gcd_L5,gcd,L5,True,PASS,,True,python -m pytest --timeout=10 python_testcases/test_gcd.py || python -m pytest --timeout=10 python_testcases/test_gcd.py,1,0,0,False

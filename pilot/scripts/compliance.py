@@ -72,7 +72,7 @@ def skill_loaded(calls, skill_name):
             return True
     return False
 
-
+# checking if the order of the tool calls are correct here. 
 def check(transcript, program, program_changed_in_diff, skill_name="quixbugs-fix"):
     calls = tool_calls(load_events(transcript))
     edits = [c["idx"] for c in calls if is_program_edit(c, program)]
